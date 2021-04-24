@@ -7,7 +7,105 @@ margin-left: 20px;
 width: 1050px; 
 height: 450px; 
 }
+.areaGrandeIzquierda{
+        width: 200px; 
+     height: 350px; 
+     border: 3px solid white;
+position: absolute;
+top:100px;
+left:20px;
+right:0;
+bottom:0;
+}
+.areaPequenaIzquierda{
+        width: 100px; 
+     height: 250px; 
+     border: 3px solid white;
+position: absolute;
+top:150px;
+left:20px;
+right:0;
+bottom:0;
 
+}
+.semiCirculoIzquierda {
+     width: 100px; 
+     height: 200px; 
+     border: 2px solid white; 
+     -moz-border-radius: 0 200px 200px 0;
+     -webkit-border-radius: 0 100px 100px 0;
+     border-radius: 0 100px 100px 0;
+ position: absolute;
+top:180px;
+left:218px;
+right:0;
+bottom:0;
+}
+
+.circuloPenalIzquierda{
+         width: 10px;
+     height: 10px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: white;
+      position: absolute;
+top:270px;
+left:160px;
+right:0;
+bottom:0;
+
+}
+
+.areaGrandeDerecha{
+        width: 200px; 
+     height: 350px; 
+     border: 3px solid white;
+position: absolute;
+top:100px;
+left:870px;
+right:0;
+bottom:0;
+}
+.areaPequenaDerecha{
+        width: 100px; 
+     height: 250px; 
+     border: 3px solid white;
+position: absolute;
+top:150px;
+left:970px;
+right:0;
+bottom:0;
+}
+
+.semiCirculoDerecha {
+       width: 100px; 
+     height: 200px; 
+     border: 2px solid white; 
+     -moz-border-radius: 200px 200px 0 0;
+     -webkit-border-radius: 100px 0 0 100px;
+     border-radius: 100px 0 0 100px;
+ position: absolute;
+top:180px;
+left:772px;
+right:0;
+bottom:0;
+}
+
+.circuloPenalDerecha{
+         width: 10px;
+     height: 10px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: white;
+      position: absolute;
+top:270px;
+left:920px;
+right:0;
+bottom:0;
+
+}
 
 .bola {
      width: 50px;
@@ -24,6 +122,46 @@ bottom:0;
 margin: auto;
 
 }
+
+.circuloCentral{
+        width: 200px; 
+     height: 200px; 
+     border: 3px solid white;
+     border-radius: 50%;
+     position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+}
+
+.rayaCentral{
+        border: 1px solid white;
+        height: 445px;
+        position: absolute;
+        background-color: white;
+left: 50%;
+margin: auto;
+}
+
+.cornerArribaIzquierda {
+     width: 15px; 
+     height: 15px; 
+     border: 2px solid white; 
+     
+     -moz-border-radius: 0 0 100% 0;
+     -webkit-border-radius: 0 0 100% 0;
+     border-radius: 0 0 100% 0;
+           position: absolute;
+top:50px;
+left:20px;
+right:0;
+bottom:0;
+
+}
+
+
 
 body{
 background-color:rgb(85, 253, 85);
