@@ -9,7 +9,8 @@ export function Home() {
 	return (
 		<div className="text-center mt-5">
 			<div className="cancha">
-				<div className="cuadrado"></div>
+				<div className="bola"></div>
+				<canvas width="400" height="400" id="lienzo"></canvas>
 			</div>
 		</div>
 	);
