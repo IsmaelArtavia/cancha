@@ -9,8 +9,9 @@ export function Home() {
 	return (
 		<div className="text-center mt-5">
 			<div className="cancha">
-				<div className="bola"></div>
-
+				<div id="outer-circle">
+					<div id="inner-circle"></div>
+				</div>
 				<div className="circuloCentral"></div>
 				<div className="rayaCentral"></div>
 				<div className="areaGrandeIzquierda"></div>
@@ -19,6 +20,7 @@ export function Home() {
 				<div className="areaGrandeDerecha"></div>
 				<div className="areaPequenaDerecha"></div>
 				<div className="semiCirculoDerecha"></div>
+				<div className="circuloCentralInincial"></div>
 				<div className="circuloPenalIzquierda"></div>
 				<div className="circuloPenalDerecha"></div>
 				<div className="cornerArribaIzquierda"></div>
