@@ -129,20 +129,29 @@ margin: auto;
      border: 3px solid white;
      border-radius: 50%;
      position: absolute;
-top:0;
-left:0;
+top:180px;
+left:475px;
 right:0;
 bottom:0;
-margin: auto;
+
 }
+
+
+ 
+
 
 .rayaCentral{
         border: 1px solid white;
-        height: 445px;
+           width: 2px;
+           background-color: white; 
+     height: 450px; 
         position: absolute;
-        background-color: white;
-left: 50%;
-margin: auto;
+       
+top:50px;
+left:575px;
+right:0;
+bottom:0;
+
 }
 
 .cornerArribaIzquierda {
@@ -161,7 +170,53 @@ bottom:0;
 
 }
 
+.cornerAbajoIzquierda {
+     width: 15px; 
+     height: 15px; 
+     border: 2px solid white; 
+     
+     -moz-border-radius: 0 100% 0 0 ;
+     -webkit-border-radius: 0 100% 0 0 ;
+     border-radius: 0 100% 0 0 ;
+           position: absolute;
+top:483px;
+left:20px;
+right:0;
+bottom:0;
 
+}
+
+.cornerArribaDerecha {
+     width: 15px; 
+     height: 15px; 
+     border: 2px solid white; 
+     
+     -moz-border-radius: 0 0 0 100%;
+     -webkit-border-radius: 0 0 0 100%;
+     border-radius: 0 0 0 100%;
+           position: absolute;
+top:50px;
+left:1053px;
+right:0;
+bottom:0;
+
+}
+
+.cornerAbajoDerecha {
+     width: 15px; 
+     height: 15px; 
+     border: 2px solid white; 
+     
+     -moz-border-radius: 100% 0 0 0 ;
+     -webkit-border-radius: 100% 0 0 0 ;
+     border-radius: 100% 0 0 0;
+           position: absolute;
+top:483px;
+left:1053px;
+right:0;
+bottom:0;
+
+}
 
 body{
 background-color:rgb(85, 253, 85);
